@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #2e3d49;
+    line-height: 1.6;
+}
+
+
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00796b;
+    padding: 15px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.menu-fixo ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu-fixo ul li {
+    margin: 0 20px;
+}
+
+.menu-fixo ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.menu-fixo ul li a:hover {
+    color: #b2dfdb;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 100px 20px 30px;
+    background-color: #004d40;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 700px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+
+.conteudo {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 2.2rem;
+    color: #00796b;
+}
+
+/* Botão voltar ao topo */
+.topo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.topo:hover {
+    background-color: #004d40;
+}
